@@ -163,6 +163,6 @@ def get_dialog(username):
     return jsonify({
         'messages': [message.to_public_dict() for message in rows]
     })
-        
+
 if __name__ == '__main__':
     app.run(debug=True)
