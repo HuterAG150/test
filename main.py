@@ -164,11 +164,8 @@ def get_dialog(username):
         'messages': [message.to_public_dict() for message in rows]
     })
 
-<<<<<<< HEAD
-=======
 def f():
     ...
 
->>>>>>> new-feature
 if __name__ == '__main__':
     app.run(debug=True)
